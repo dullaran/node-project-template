@@ -1,0 +1,55 @@
+{
+  "name": "node-project-template",
+  "version": "0.0.1",
+  "author": "Romulo <romulo.santos@outlook.com>",
+  "description": "Template for new projects nodejs",
+  "contributors": [
+    {
+      "name": "Romulo Santos",
+      "email": "romulo.santos@outlook.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dullaran/node-project-template"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "template",
+    "javascript",
+    "karma",
+    "grunt",
+    "coveralls",
+    "travis-ci"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-compress": "^0.8.0",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jscs-checker": "^0.4.1",
+    "grunt-karma": "^0.8.2",
+    "grunt-karma-coveralls": "^2.4.4",
+    "jshint-stylish": "^0.1.5",
+    "karma": "^0.12.9",
+    "karma-coverage": "^0.2.1",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  },
+  "bundledDependencies": [],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.26"
+  },
+  "scripts": {
+    "test": "grunt travis --verbose"
+  },
+  "banner": "",
+  "footer": ""
+}
